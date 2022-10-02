@@ -16,3 +16,5 @@ var distance = GeomertyMath.Distance(p1, p2);
 Console.WriteLine($"Расстояние между двумя точками в пространстве равно {distance}");
 var distanceto0 = GeomertyMath.Distanceto0(p1, p2);
 Console.WriteLine($"Расстояние от точки до начала координат: {distanceto0}");
+var scalar = GeomertyMath.Scalar(p1, p2);
+Console.WriteLine($"Скалярное произведение: {scalar}");
