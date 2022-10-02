@@ -18,3 +18,4 @@ Console.WriteLine($"Расстояние от точки до начала ко�
 Console.WriteLine($"Скалярное произведение: {GeomertyMath.Scalar(p1, p2)}");
 Console.WriteLine($"Сумма координат точек: {Summa.Coord1(p1, p2)},{Summa.Coord2(p1, p2)},{Summa.Coord3(p1, p2)}");
 Console.WriteLine($"Векторное произведение: {Vectorproizv.Coord1(p1, p2)},{Vectorproizv.Coord2(p1, p2)},{Vectorproizv.Coord3(p1, p2)}");
+Console.WriteLine($"Уравнение прямой: (x-{p1.X})/{Naprlvectr.Coord1(p1,p2)}=(y-{p1.Y})/{Naprlvectr.Coord2(p1,p2)}=(z-{p1.Z})/{Naprlvectr.Coord3(p1,p2)}");
