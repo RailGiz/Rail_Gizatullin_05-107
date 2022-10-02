@@ -14,3 +14,5 @@ Console.WriteLine("Введите вторую точку:");
 var p2 = Read3DPoint();
 var distance = GeomertyMath.Distance(p1, p2);
 Console.WriteLine($"Расстояние между двумя точками в пространстве равно {distance}");
+var distanceto0 = GeomertyMath.Distanceto0(p1, p2);
+Console.WriteLine($"Расстояние от точки до начала координат: {distanceto0}");
