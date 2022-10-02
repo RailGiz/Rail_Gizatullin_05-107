@@ -12,9 +12,9 @@ Console.WriteLine("Введите первую точку:");
 var p1 = Read3DPoint();
 Console.WriteLine("Введите вторую точку:");
 var p2 = Read3DPoint();
-var distance = GeomertyMath.Distance(p1, p2);
-Console.WriteLine($"Расстояние между двумя точками в пространстве равно {distance}");
-var distanceto0 = GeomertyMath.Distanceto0(p1, p2);
-Console.WriteLine($"Расстояние от точки до начала координат: {distanceto0}");
-var scalar = GeomertyMath.Scalar(p1, p2);
-Console.WriteLine($"Скалярное произведение: {scalar}");
+
+Console.WriteLine($"Расстояние между двумя точками в пространстве равно {GeomertyMath.Distance(p1, p2)}");
+Console.WriteLine($"Расстояние от точки до начала координат: {GeomertyMath.Distanceto0(p1, p2)}");
+Console.WriteLine($"Скалярное произведение: {GeomertyMath.Scalar(p1, p2)}");
+Console.WriteLine($"Сумма координат точек: {Summa.Coord1(p1, p2)},{Summa.Coord2(p1, p2)},{Summa.Coord3(p1, p2)}");
+Console.WriteLine($"Векторное произведение: {Vectorproizv.Coord1(p1, p2)},{Vectorproizv.Coord2(p1, p2)},{Vectorproizv.Coord3(p1, p2)}");
